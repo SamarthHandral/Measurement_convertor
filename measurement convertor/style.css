@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.top-txt{
+    margin-bottom: 15px;
+}
+
+.container {
+    position: fixed;
+    align-items: center;
+    background: rgba(32, 27, 27, 0.5);
+    color: #ff0808;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 4px 1px rgb(234, 206, 206);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;  
+  }
+  
+
+.container p{
+    color: rgb(255, 251, 251);
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inputContainer{
+    color: rgb(252, 244, 244);
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+}
+.inputContainer label{
+    font-size: larger;
+    font-weight: bolder;
+}
+.inputContainer input{
+    border:none;
+    outline: none;
+    box-shadow: 0.1px 1px 2px 1px rgb(10, 9, 9);
+    padding:4px;
+    font-size: large;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }

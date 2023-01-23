@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature coverter</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <img src="temp1.jpg" id="img" >
+    
+    <div class="container">
+        <p>Temperature Converter</p>
+        <div class="inputContainer">
+            <label for="fahrenheit">Fahrenheit</label><input type="number" name="" id="fahrenheit"  oninput="convertToOthers('fahrenheit',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="celsius">Celsius</label><input type="number" name="" id="celsius" oninput="convertToOthers('celsius',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="kelvin">Kelvin</label><input type="number" name="" id="kelvin" oninput="convertToOthers('kelvin',this.value)">
+        </div>
+    </div>        
+    <script src="script1.js"></script>
+</body>
+</html>

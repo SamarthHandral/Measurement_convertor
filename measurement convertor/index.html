@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Conveter</title>
+<link rel="stylesheet" href="style5.css">
+
+</head>
+<body>
+<section class="header">
+<nav>
+          
+	  <div class="nav-links">
+            
+             <ul>
+                 <li><a href="home.html">HOME</a></li>
+                 <li><a href="#">MENU</a>
+		<div class="sub-menu">
+		 <ul>
+		 <li><a href="length.html">Length Converter</a></li>
+		 <li><a href="temp.html">Temperature Converter</a></li>
+		 </ul>
+		 </div>
+		</li>
+		 <li><a href="about.html">ABOUT</a></li>
+              </ul>
+           </div>
+		
+       </nav>
+
+<img src="cimg.jpg" alt="Measurement" id="img">
+
+
+<div class="container">
+	<h1>Measurement Converter</h1>
+	<p>A Measurement Converter converts different quantities like Length into feet,meter,inches and 
+	Temperature into fahrenheit.<br> A Measurement Converter consist of following :  
+	Temperature converter and Length converter</p>
+	</section>
+
+
+<!-------Menu------->
+<section class="Menu">
+    <h1>Converters</h1>
+    <p>Different Converters</p>
+    <div class="row">
+        <div class="branch-col" onclick="document.location='length.html'">
+            <h3>Length Converter</h3>
+            <p>Convertes into different quantities like Length into feet,meter,inches</p>
+        
+        </div>
+       <div class="branch-col" onclick="document.location='temp.html'">
+            <h3>Temperature Converter</h3>
+            <p>Convertes into different quantities like Temperature into fahrenheit</p>
+        
+        </div>        
+</section>
+
+
+<!--------Footer------>
+<section class="footer">
+    <div class="content">
+        <center>
+        <h2>About US</h2>
+        <p>Provide a comprehensive collection of calculators for ease of public use<br/>
+
+            made with by Samarth Handral</p>
+        </center>
+
+</section>
+
+
+<!--------javascript for menu------>
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+	   navLinks.style.right = "0";
+         }
+	function hideMenu(){
+	   navLinks.style.right = "-200px";
+         }
+
+</script>
+
+</body>
+</html>
